@@ -193,13 +193,12 @@
         <android.widget.Button
             android:id="@+id/button_create_an_account"
             style="@style/Authentication.Button.Borderless"
-            android:layout_marginTop="10dp"
-            android:text="@string/msg_create_account"
-            android:visibility="gone"
+            android:text="Create an account1"
+            android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_login_with_email"
-            tools:visibility="visible" />
+            app:layout_constraintTop_toBottomOf="parent"
+            tools:visibility="@string/msg_invisible" />
 
         <com.wang.avi.AVLoadingIndicatorView
             android:id="@+id/view_loading"

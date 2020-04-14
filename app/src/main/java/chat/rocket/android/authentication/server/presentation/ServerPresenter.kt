@@ -48,33 +48,38 @@ class ServerPresenter @Inject constructor(
             if (totalSocialAccountsEnabled == 0 && !isNewAccountCreationEnabled) {
                 navigator.toLogin(serverUrl)
             } else {
+                navigator.toLogin(serverUrl)
+
+                /*
                 navigator.toLoginOptions(
-                    serverUrl,
-                    state,
-                    facebookOauthUrl,
-                    githubOauthUrl,
-                    googleOauthUrl,
-                    linkedinOauthUrl,
-                    gitlabOauthUrl,
-                    wordpressOauthUrl,
-                    casLoginUrl,
-                    casToken,
-                    casServiceName,
-                    casServiceNameTextColor,
-                    casServiceButtonColor,
-                    customOauthUrl,
-                    customOauthServiceName,
-                    customOauthServiceNameTextColor,
-                    customOauthServiceButtonColor,
-                    samlUrl,
-                    samlToken,
-                    samlServiceName,
-                    samlServiceNameTextColor,
-                    samlServiceButtonColor,
-                    totalSocialAccountsEnabled,
-                    isLoginFormEnabled,
-                    isNewAccountCreationEnabled
-                )
+                      serverUrl,
+                      state,
+                      facebookOauthUrl,
+                      githubOauthUrl,
+                      googleOauthUrl,
+                      linkedinOauthUrl,
+                      gitlabOauthUrl,
+                      wordpressOauthUrl,
+                      casLoginUrl,
+                      casToken,
+                      casServiceName,
+                      casServiceNameTextColor,
+                      casServiceButtonColor,
+                      customOauthUrl,
+                      customOauthServiceName,
+                      customOauthServiceNameTextColor,
+                      customOauthServiceButtonColor,
+                      samlUrl,
+                      samlToken,
+                      samlServiceName,
+                      samlServiceNameTextColor,
+                      samlServiceButtonColor,
+                      totalSocialAccountsEnabled,
+                      isLoginFormEnabled,
+                      isNewAccountCreationEnabled
+                  )
+                  */
+
             }
         }
     }

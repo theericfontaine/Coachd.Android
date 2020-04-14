@@ -26,7 +26,7 @@
             style="@style/Authentication.TextView.Headline"
             android:layout_marginTop="32dp"
             android:gravity="center"
-            android:text="@string/msg_welcome_to_rocket_chat"
+            android:text="Welcome to Coachd"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/image_on_boarding" />
@@ -35,7 +35,7 @@
             android:id="@+id/text_on_boarding_description"
             style="@style/Authentication.TextView.Description"
             android:gravity="center"
-            android:text="@string/msg_team_communication"
+            android:text="Genuine Connection"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_on_boarding_title" />
@@ -69,7 +69,7 @@
                 android:layout_centerVertical="true"
                 android:layout_toStartOf="@+id/image_connect_with_a_server_chevron"
                 android:layout_toEndOf="@+id/image_connect_with_a_server"
-                android:text="@string/action_connect_server" />
+                android:text="Connect to Coachd" />
 
             <ImageView
                 android:id="@+id/image_connect_with_a_server_chevron"
@@ -90,6 +90,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/rounded_border"
             android:foreground="?selectableItemBackground"
+            android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/connect_with_a_server_container">
@@ -142,6 +143,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/rounded_color_accent"
             android:foreground="?selectableItemBackground"
+            android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/join_community_container">

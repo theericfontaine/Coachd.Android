@@ -10,7 +10,7 @@ Coding style:
 https://github.com/RocketChat/java-code-styles/blob/master/CODING_STYLE.md#strings
 -->
 <resources>
-    <string name="app_name" translatable="false">Rocket.Chat</string>
+    <string name="app_name" translatable="false">Coachd</string>
 
     <!-- Titles -->
     <string name="title_sign_in_your_server">Sign in to your server</string>
@@ -86,7 +86,7 @@ https://github.com/RocketChat/java-code-styles/blob/master/CODING_STYLE.md#strin
     <string name="msg_send_analytics_tracking">Send anonymous statistics to help improve this app</string>
     <string name="msg_do_not_send_analytics_tracking">Do not send anonymous statistics to help improve this app</string>
     <string name="msg_not_applicable_since_it_is_a_foss_version">Not applicable since it is a FOSS version</string>
-    <string name="msg_logout_from_rocket_chat">Logout from Rocket.Chat</string>
+    <string name="msg_logout_from_rocket_chat">Logout from Coachd</string>
     <string name="msg_delete_account">Delete account</string>
     <string name="msg_change_status">Change status</string>
 
